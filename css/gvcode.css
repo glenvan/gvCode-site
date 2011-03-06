@@ -92,7 +92,7 @@ p, .product-section {
 }
 
 a {
-	font-style: underline;
+	text-decoration: underline;
 	color: #CDB380;
 }
 
