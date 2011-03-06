@@ -1,6 +1,6 @@
 /*
  * http://www.colourlovers.com/palette/292482/Terra
- * E8DDCB CDB380 036564 033649 031634
+ * #E8DDCB #CDB380 #036564 #033649 #031634
  */
 
 * {
@@ -48,7 +48,7 @@ h5 {
 	             "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
 }
 
-p {
+p, .product-section {
 	margin: 1em;
 	padding: 1em;
 	background-color: #036564;
@@ -60,7 +60,7 @@ p {
 	position: relative;
 	background-color: #033649;
 	width: 100%;
-	height: 4em;
+	height: 50px;
 	z-index: 2;
 }
 
@@ -70,3 +70,32 @@ p {
 	left: 0.5em;
 }
 
+#pac-icon {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.product-header {
+	cursor: pointer;
+	vertical-align: middle;
+	font-size: 1.8em;
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans",
+	             "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
+}
+
+.product-info {
+	margin: 1em 0 0 0;
+}
+
+.distinct-text {
+	color: #036564;
+}
+
+a {
+	font-style: underline;
+	color: #CDB380;
+}
+
+img {
+	border: none;
+}
